@@ -1,0 +1,11 @@
+<div>
+  <h3>
+    {{model.title}}
+  </h3>
+  <p>{{model.desc}}</p>
+</div>
+<input class="toggle" type="checkbox" (click) ="toggleTaskComplete(model)" [checked]="model.complete">
+<!--<button (click)="onClickView()">View</button>
+<button (click)="onClickModify()">Update</button>-->
+<button class="destroy" (click)="removeTask(model)">Delete</button>
+

@@ -1,0 +1,15 @@
+<app-display-tasks></app-display-tasks>
+<h3>Add a task here:</h3>
+<form (ngSubmit)="onSubmit()">
+  <div>
+    <label for="task">Task</label>
+    <input type="text" placeholder="Task" name="task" required [(ngModel)]="model.task">
+  </div>
+  <div>
+    <label for="description">Description:</label>
+    <textarea type="text" placeholder="description" name="description" required [(ngModel)]="model.description"></textarea>
+  </div>
+  <div>
+    <button type="submit">Submit</button>
+  </div>
+</form>

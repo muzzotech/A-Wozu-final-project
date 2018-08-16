@@ -1,0 +1,19 @@
+{
+    "tasks": [
+        {
+            "id": 0,
+            "task": "Do Laundry",
+            "description": "Separate the whites from the colors"
+        },
+        {
+            "id": 1,
+            "task": "Make Dinner",
+            "description": "Pop meal in microwave"
+        },
+        {
+            "id": 2,
+            "task": "Get Gas",
+            "description": "Make sure you get 87 Octane"
+        }
+    ]
+}
